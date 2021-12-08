@@ -1,0 +1,108 @@
+#background{
+    background-color: rgba(218, 28, 15, 0.918);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #efefef;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    flex: 1 1 20rem;
+    flex-direction: column;
+    margin: 10px 20px;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    padding: 10px 20px;
+    align-self: normal;
+}
+.card img{
+    width: 285px;
+    height: 200px;
+}
+.card h4{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.card .btn{
+    margin-top: auto;
+    display: inline-block;
+    background: green;
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/*CONTENEDOR GRANDRE*/
+
+.card1{
+    flex: 1 1 20rem;
+    flex-direction: column;
+    margin: 10px 20px;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    padding: 10px 20px;
+    align-self: left;
+}
+.card1 .btn1{
+    margin-top: auto;
+    display: inline-block;
+    background:red;
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card1 img{
+    width: 410px;
+    height: 295px;
+}
+
+.parrafo img{
+    float: left;
+    margin: 13px;
+}
+

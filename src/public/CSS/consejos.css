@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeza{
+    overflow: hidden;
+    background-color: rgb(153, 60, 43);
+}
+#cabeza_izq{
+    background-color: white;
+    float: left;
+    width: 400px;
+    background-color: gainsboro;
+    border-bottom-right-radius: 2000px;
+    border-top-left-radius: 2000px;
+}
+#img_cabeza{
+    margin-left: 120px;
+    height: 120px;
+}
+#cabeza_der{
+    float: right;
+    width: 800px;
+}
+#lanonna{
+    font-family: 'Times New Roman', Times, serif;
+    color: snow;
+    float: left;
+    font-size: 55px;
+    text-align: center;
+}
+#Titulo{
+    font-family: Brush Script MT;
+    color: seashell;
+    float: right;
+    font-size: 55px;
+    margin-right: 170px;
+    margin-top: 70px;
+}
+#consejo1{
+    margin: 10px;
+    margin-left: 65px;
+    float: left;
+    background-color: rgb(153, 60, 43);
+    width: 700px;
+    height: 440px;
+    padding: 20px;
+    text-align: center;
+}
+#consejo1:hover{
+    background-color: rgb(155, 94, 25);
+    color: white;
+    transform: scale(1.05);
+}
+#consejo1_img{
+    width: 100%;
+    height: 50%;
+}
+#consejo1_titulo{
+    margin-top: 45px;
+    font-style: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#consejo1_contenido{
+    font-family: verdana;
+    text-align: justify;
+}
+#consejo2{
+    margin: 10px;
+    margin-right: 100px;
+    margin-left: 65px;
+    float: left;
+    background-color: rgb(153, 60, 43);
+    width: 700px;
+    height: 440px;
+    padding: 20px;
+}
+#consejo2:hover{
+    background-color: rgb(155, 94, 25);
+    color: white;
+    transform: scale(1.05);
+}
+#consejo2_img{
+    width: 100%;
+}
+#consejo2_titulo{
+    margin-top: 45px;
+    font-style: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#consejo2_contenido{
+    margin-top: 20px;
+    font-family: verdana;
+    text-align: justify;
+}
+#consejo3{
+    margin: 10px;
+    margin-left: 65px;
+    float: left;
+    background-color: rgb(153, 60, 43);
+    width: 700px;
+    height: 440px;
+    padding: 20px;
+}
+#consejo3:hover{
+    background-color: rgb(155, 94, 25);
+    color: white;
+    transform: scale(1.05);
+}
+#consejo3_img{
+    width: 100%;
+    height: 50%;
+}
+#consejo3_titulo{
+    margin-top: 45px;
+    font-style: bold;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#consejo3_contenido{
+    font-family: verdana;
+    text-align: justify;
+}
+#mapa{
+    margin: 10px;
+    margin-top: -990px;
+    margin-right: 20px;
+    float: right;
+    background-color: rgb(153, 60, 43);
+    width: 410px;
+    height: 460px;
+    padding: 20px;
+    text-align: center;
+}
+#enlaces{
+    margin: 10px;
+    margin-top: -400px;
+    margin-right: 20px;
+    float: right;
+    background-color: rgb(153, 60, 43);
+    width: 410px;
+    height: 185px;
+    padding: 20px;
+    text-align: center;
+}
+#contenedor{
+    font-family: Verdana;
+}
+.navegador li a{
+    border-top: 5px solid rgb(153, 60, 43);
+    background-color: white;
+    color: rgb(155, 94, 25);
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    border-bottom: solid rgb(155, 94, 25), 4px;
+    width: 390px;
+    text-align: center;
+}
+ul, li{
+    list-style: none;
+}
+.navegador li a:hover{
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
